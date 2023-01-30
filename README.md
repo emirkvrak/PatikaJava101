@@ -2,5 +2,8 @@
 
 Bu repoda patikanın verdiği java101 ödevleri bulunuyor.
 
+Resme tıklayarak patika sayfama gidebilirsiniz:
 
-[Patika java101](https://app.patika.dev/courses/java101)
+![img](https://github.com/emirkvrak/PatikaJava101/blob/main/PatikaEmir.png)
+
+[Patika java101 Kursu](https://app.patika.dev/courses/java101)

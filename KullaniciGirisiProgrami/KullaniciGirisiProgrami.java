@@ -44,9 +44,6 @@ public class KullaniciGirisiProgrami {
                 System.out.println("Yanlis sifre cikis yapildi :(");
         }
    
-             
-        
-        
     }
     
 }

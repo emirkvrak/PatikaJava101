@@ -50,6 +50,16 @@ public class Ring {
 
 
     }
+    
+    public boolean yaziTura(){
+        
+        double randomValue = Math.random() * 100;
+        if (randomValue<50) {
+            return true;
+        }else{
+            return false;
+        }
+    }
 
     public boolean checkWeight() {
         return (f1.weight >= minWeight && f1.weight <= maxWeight) && (f2.weight >= minWeight && f2.weight <= maxWeight);
@@ -72,16 +82,6 @@ public class Ring {
         System.out.println("------------");
         System.out.println(f1.name + " Kalan Can \t:" + f1.health);
         System.out.println(f2.name + " Kalan Can \t:" + f2.health);
-    }
-    
-    public boolean yaziTura(){
-        
-        double randomValue = Math.random() * 100;
-        if (randomValue<50) {
-            return true;
-        }else{
-            return false;
-        }
     }
     
 }
